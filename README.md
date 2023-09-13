@@ -1,3 +1,7 @@
-A simple calculator built in pure vanilla JavaScript for learning purposes.
+## Simple JavaScript Calculator
+### A simple calculator built in pure vanilla JavaScript for learning purposes.
+This is a simple and small calculator project just to learn pure HTML, CSS and JS. I didn't use any 3rd party library (Neither for CSS nor for JS) or `eval()` function, I wrote everything from scratch. I didn't pursue a goal of making the code perfect as well. You can use keyboard keys(Any numeric keys and del & backspace to AC/Reset) to calculate.
 
-![calculator](https://github.com/shtanriverdi/js-calculator/assets/36234545/fe8e38b6-549c-4df5-9333-439009d2c0cb)
+![calc](https://github.com/shtanriverdi/js-calculator/assets/36234545/d65f263e-b18e-427f-a70e-6cebd63372ac)
+
+2023, Süha Tanrıverdi.
