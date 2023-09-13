@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Calculator</title>
+    <link rel="stylesheet" href="app.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <h1>JS Calculator</h1>
+    <main id="container">
+        <div id="mainDisplay" class="flex">0</div>
+        <div id="upperButtons" class="flex">
+            <button type="button" id="plusBtn" name="+">+</button>
+            <button type="button" id="minusBtn" name="-">-</button>
+            <button type="button" id="multiplyBtn" name="×">×</button>
+            <button type="button" id="divideBtn" name="÷">÷</button>
+        </div>
+        <div id="lowerButtons" class="flex">
+            <div id="numpad" class="flex">
+                <div class="flex f-1">
+                    <button type="button" id="btn7" name="7">7</button>
+                    <button type="button" id="btn8" name="8">8</button>
+                    <button type="button" id="btn9" name="9">9</button>
+                </div>
+                <div class="flex f-1">
+                    <button type="button" id="btn4" name="4">4</button>
+                    <button type="button" id="btn5" name="5">5</button>
+                    <button type="button" id="btn6" name="6">6</button>
+                </div>
+                <div class="flex f-1">
+                    <button type="button" id="btn1" name="1">1</button>
+                    <button type="button" id="btn2" name="2">2</button>
+                    <button type="button" id="btn3" name="3">3</button>
+                </div>
+                <div class="flex f-1">
+                    <button type="button" id="0Btn" name="0">0</button>
+                    <button type="button" id="dotBtn" name="dot">.</button>
+                    <button type="button" id="ACBtn" name="ac">AC</button>
+                </div>
+            </div>
+            <div id="equalButton">
+                <button type="button" name="=">=</button>
+            </div>
+        </div>
+    </main>
+    <!-- JS -->
+    <script src="app.js"></script>
+</body>
+
+</html>

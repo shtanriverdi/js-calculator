@@ -1,0 +1,104 @@
+html {
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(45deg, darkcyan, lightblue);
+}
+
+:root {
+    --rad: 1.2rem;
+}
+
+body,
+html {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+#container {
+    height: 25em;
+    width: 30em;
+    border-radius: var(--rad);
+    /* To fix rounded corners problem on children */
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 0.5rem 0.1rem darkslategrey;
+}
+
+#mainDisplay {
+    color: white;
+    user-select: none;
+    font-size: 3rem;
+    text-align: end;
+    padding: 0 1rem;
+    background: linear-gradient(90deg, darkslategrey, black);
+    overflow-x: auto;
+    flex-direction: row-reverse;
+}
+
+h1 {
+    color: white;
+    font-size: 2.5em;
+    cursor: default;
+    pointer-events: none;
+}
+
+button {
+    width: 100%;
+    height: 100%;
+    font-size: 1.5em;
+    background: white;
+    border: 0.01em solid darkslategrey;
+}
+
+button:hover {
+    background: #ACD6E0;
+}
+
+.flex {
+    display: flex;
+}
+
+.f-1 {
+    flex: 1;
+}
+
+#upperButtons {
+    flex: 1;
+}
+
+#lowerButtons {
+    /* Takes up all available space inside its parent */
+    flex: 4;
+    /*  justify-content: center;
+    align-items: center; */
+}
+
+#numpad {
+    flex: 3;
+    flex-direction: column;
+}
+
+#upperButtons button {
+    background-color: lightgrey;
+}
+
+#upperButtons button:hover {
+    background: #CFA17E;
+}
+
+#equalButton {
+    flex: 1;
+}
+
+#equalButton button {
+    background: linear-gradient(180deg, coral, #EB601F);
+}
+
+#equalButton button:hover {
+    background: linear-gradient(180deg, coral, #C64C20);
+}
