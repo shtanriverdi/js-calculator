@@ -1,3 +1,4 @@
+// Süha Tanrıverdi, 2023.
 /*
  in normal JavaScript, mistyping a variable name
   creates a new global variable. 
